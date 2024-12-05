@@ -73,7 +73,7 @@ public class PostagemController {
 		}
 		
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
-	}
+	} 
 
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	@DeleteMapping("/{id}")
