@@ -38,7 +38,7 @@ public class Postagem {
 	@UpdateTimestamp
 	private LocalDateTime data;
 
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Tema tema;
 	
